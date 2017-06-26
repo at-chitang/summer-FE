@@ -1,0 +1,30 @@
+*{
+	width: calc(100% - 2px);	/*tao khoang cach tinh trong dong*/
+}
+
+div::after{
+	content: attr(data-attr);	/*lay du lieu trong phan "data-attr" cua the*/
+}
+
+img{
+	position: absolute;				/*relative*/
+	z-index: 1;								/*vi tri cua lop nay*/
+	transform: 
+}
+
+.abc .ab{
+	transition: .4s;
+}
+
+.abc::hover .ab{
+	transform: rotate(30deg);
+}
+
+@media screen and (max-width: 768){
+	x
+}
+
+rgb()/rgba()								/*de mau len tren them a thi co them dieu chinh do trong suot*/
+hsl()/hsla()
+
+

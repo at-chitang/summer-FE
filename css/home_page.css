@@ -1,0 +1,13 @@
+/*.banner{
+	background-image: url("../images/pannel.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: yellow
+}
+#banner-image{
+	width: 100%;
+	height: auto
+}
+*/

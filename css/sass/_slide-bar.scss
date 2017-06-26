@@ -1,0 +1,60 @@
+/*slide bar*/
+
+.sidebar-left{
+	width: 24%;
+	height: 100%;
+	display: inline;
+	float: left;
+
+	.group{
+		background-color: #d9e4e9;
+		height: 50px;
+		padding: 15px 15px 15px 15px;
+		margin: 10px 5px 10px 5px;
+
+		ul{
+			float: left;
+		}
+		span{
+			float: right;
+		}
+	}
+	.group-first{
+		margin-top: 0px;
+	}
+	.group-list{
+		font-size: 14px;
+		padding-left: 40px;
+		line-height: 25px;
+	}
+	.group-form{
+		margin-top: 40px;
+		font-weight: bold;
+		height: 265px;
+
+		.line{
+			width: 50px;
+			height: 1px;
+			background-color: #62c6f8;
+			clear: left;
+			margin-top: 27px;
+			margin-bottom: 15px;
+		}
+		div input{
+			height: 30px;
+			padding-left: 10px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		> input{
+			background-color: #4ac74a;
+			padding: 10px 10px 10px 10px;
+			color: white;
+			font-weight: bold;
+			border: none;
+			margin-left: calc(50% - 40px);
+		}
+	}
+}
+
+/* end slide bar */
